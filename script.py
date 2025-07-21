@@ -8,9 +8,6 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 from pytz import timezone # Pastikan pytz di-import
 from config import TOKEN, USER_ID  # <-- Tambahkan ini
 
-# --- Konfigurasi ---
-# TOKEN = "8065415414:AAFfy0cNR65wD_q9jfVhpxavEwGXgWgY08c" 
-# USER_ID = 5833267103
 JADWAL_FILE = "jadwal.json" 
 
 STIKER_TELEPON = "CAACAgIAAxkBAAEGeZVmH13v_gqLgfYX73apqivJpA7nUAAC-QAD9wLID7C8A4FkP5sBHgQ"
